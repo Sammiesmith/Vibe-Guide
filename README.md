@@ -16,3 +16,6 @@ Run generate_audio_files.py
 
 ## Play the Radio Show
 Run play_radio_show.py to hear the show!
+
+
+Note: contact owner (Sammie Smith) for API keys
