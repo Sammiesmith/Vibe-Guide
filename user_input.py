@@ -1,0 +1,1 @@
+playlist = [["Fortunate Son", "Creedence Clearwater Revival", "Fortunate_Son.mp3"],["Edgeof Seventeen", "Stevie Nicks", "Edge_of_Seventeen.mp3"], ["Mary Jane's Last Dance", "Tom Petty and the Heartbreakers", "Mary_Janes_Last_Dance.mp3"]]
