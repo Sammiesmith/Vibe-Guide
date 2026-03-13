@@ -1,0 +1,8 @@
+openai
+python-dotenv
+librosa
+numpy
+mutagen
+requests
+playsound
+spotipy

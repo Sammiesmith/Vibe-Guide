@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Radio Playlist</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #1f2937, #312e81);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 24px;
+      padding: 56px 40px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #c4b5fd;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 4.5rem);
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #e5e7eb;
+      max-width: 700px;
+      margin: 0 auto 32px;
+    }
+
+    .highlight {
+      color: #a78bfa;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-weight: bold;
+      transition: 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #8b5cf6;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #7c3aed;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: white;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-2px);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .feature-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 18px;
+      padding: 22px;
+      text-align: left;
+    }
+
+    .feature-card h3 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      color: #ddd6fe;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 0;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <div class="tag">Instant playlists, curated your way</div>
+    <h1>
+      Create the vibe you want
+      <span class="highlight">in an instant</span>
+    </h1>
+    <p>
+      From old favorites to niche artists, build the playlists you crave in seconds.
+      Then press play and listen along with your own AI radio host guiding the vibe.
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="btn btn-primary">Create a Playlist</a>
+      <a href="#features" class="btn btn-secondary">See How It Works</a>
+    </div>
+
+    <div class="features" id="features">
+      <div class="feature-card">
+        <h3>Any mood, any genre</h3>
+        <p>Start with a feeling, artist, memory, or niche sound and get a playlist that matches instantly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Deep cuts included</h3>
+        <p>Mix beloved classics with hidden gems to create playlists that feel personal and fresh.</p>
+      </div>
+      <div class="feature-card">
+        <h3>AI radio host</h3>
+        <p>Listen with an AI host that introduces tracks, sets the tone, and keeps the experience flowing.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
